@@ -145,19 +145,19 @@ const Template = () => {
   return (
     <>
       <Head>
-        <title>Resume Templates | Corporate Gate</title>
+        <title>Resume Templates | AiResumeBuilder</title>
         <meta
           name="description"
-          content="Explore various resume templates to create a professional resume that suits your needs. Corporate Gate offers a range of resume styles including Chronological, Functional, and Creative templates."
+          content="Explore various resume templates to create a professional resume that suits your needs. AiResumeBuilder offers a range of resume styles including Chronological, Functional, and Creative templates."
         />
         <meta
           name="keywords"
           content="resume templates, chronological resume, functional resume, hybrid resume, creative resume, modern resume"
         />
-        <meta property="og:title" content="Resume Templates | Corporate Gate" />
+        <meta property="og:title" content="Resume Templates | AiResumeBuilder" />
         <meta
           property="og:description"
-          content="Explore various resume templates to create a professional resume that suits your needs. Corporate Gate offers a range of resume styles including Chronological, Functional, and Creative templates."
+          content="Explore various resume templates to create a professional resume that suits your needs. AiResumeBuilder offers a range of resume styles including Chronological, Functional, and Creative templates."
         />
       </Head>
       <div className="template-container">

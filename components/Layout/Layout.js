@@ -20,14 +20,14 @@ const Layout = ({ children }) => {
   return (
     <>
       <Head>
-        <title>Corporate Gate - Professional Resume Builder</title>
+        <title>AiResumeBuilder - Professional Resume Builder</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
         <meta
           name="description"
-          content="Corporate Gate: Your one-stop solution for building professional resumes, generating cover letters, exploring various templates, and curating skillsets."
+          content="AiResumeBuilder: Your one-stop solution for building professional resumes, generating cover letters, exploring various templates, and curating skillsets."
         />
       </Head>
 

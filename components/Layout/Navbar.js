@@ -86,9 +86,9 @@ const Navbar = () => {
                   <img
                     src="/logo/cg-logo.jpg"
                     style={{ height: "1rem", marginRight: "8px" }}
-                    alt="Corporate Gate Logo"
+                    alt="AiResumeBuilder Logo"
                   />
-                  Corporate Gate
+                  AiResumeBuilder
                 </p>
               </Link>
             </div>
@@ -118,7 +118,7 @@ const Navbar = () => {
               <span>
                 <img src="/logo/cg-logo.jpg" style={{ height: "3rem" }} />
               </span>
-              Corporate Gate
+              AiResumeBuilder
             </h2>
           </Link>
 

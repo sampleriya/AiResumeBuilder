@@ -6,14 +6,14 @@ const BlogName = () => {
   return (
     <div>
       <Head>
-        <title>Blog Detail | Corporate Gate</title>
+        <title>Blog Detail | AiResumeBuilder</title>
         <meta
           name="description"
-          content="Read in-depth insights and expert advice on various topics related to professional resume building and career development in this blog post on Corporate Gate."
+          content="Read in-depth insights and expert advice on various topics related to professional resume building and career development in this blog post on AiResumeBuilder."
         />
         <meta
           name="keywords"
-          content="blog, Corporate Gate, resume tips, career development, professional advice, resume building, job search"
+          content="blog, AiResumeBuilder, resume tips, career development, professional advice, resume building, job search"
         />
       </Head>
       <SingleBlog />

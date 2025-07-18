@@ -10,7 +10,7 @@ const Footer = () => {
               <div className='single-footer-widget'>
                 <Link href='/' className='d-inline-block logo'>
                   <h1  style={{color:"var(--mainColor)", fontFamily:"var(--fontFamily3)"}}>
-                    Corporate Gate
+                    AiResumeBuilder
                   </h1>
                 </Link>
 

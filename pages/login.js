@@ -6,14 +6,14 @@ const Login = () => {
   return (
     <div>
       <Head>
-        <title>Login | Corporate Gate</title>
+        <title>Login | AiResumeBuilder</title>
         <meta
           name="description"
-          content="Login to Corporate Gate to access your professional resume builder and skill matching tools. Secure and easy login process."
+          content="Login to AiResumeBuilder to access your professional resume builder and skill matching tools. Secure and easy login process."
         />
         <meta
           name="keywords"
-          content="login, Corporate Gate, resume builder login, professional resume, secure login"
+          content="login, AiResumeBuilder, resume builder login, professional resume, secure login"
         />
       </Head>
       <LoginPage />

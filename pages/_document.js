@@ -12,18 +12,18 @@ class MyDocument extends Document {
     return (
       <Html dir={dir} lang={locale}>
         <Head>
-          <title>Corporate Gate - Professional Resume Builder</title>
+          <title>AiResumeBuilder - Professional Resume Builder</title>
           <meta
             name="description"
-            content="Corporate Gate: Build a professional resume effortlessly with our user-friendly resume builder."
+            content="AiResumeBuilder: Build a professional resume effortlessly with our user-friendly resume builder."
           />
           <meta
             name="keywords"
-            content="resume builder, professional resume, Corporate Gate, CV, job application"
+            content="resume builder, professional resume, AiResumeBuilder, CV, job application"
           />
           <meta
             property="og:title"
-            content="Corporate Gate - Professional Resume Builder"
+            content="AiResumeBuilder - Professional Resume Builder"
           />
           <meta
             property="og:description"

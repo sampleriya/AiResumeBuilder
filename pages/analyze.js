@@ -9,11 +9,11 @@ const Analyze = () => {
   return (
     <>
       <Head>
-        <title>Resume Analysis | Corporate Gate</title>
-        <meta name="description" content="Upload your resume to get detailed feedback on mistakes and improve your resume's effectiveness. Corporate Gate provides insightful analysis to enhance your resume." />
+        <title>Resume Analysis | AiResumeBuilder</title>
+        <meta name="description" content="Upload your resume to get detailed feedback on mistakes and improve your resume's effectiveness. AiResumeBuilder provides insightful analysis to enhance your resume." />
         <meta name="keywords" content="resume analysis, resume feedback, resume mistakes, improve resume" />
-        <meta property="og:title" content="Resume Analysis | Corporate Gate" />
-        <meta property="og:description" content="Upload your resume to get detailed feedback on mistakes and improve your resume's effectiveness. Corporate Gate provides insightful analysis to enhance your resume." />
+        <meta property="og:title" content="Resume Analysis | AiResumeBuilder" />
+        <meta property="og:description" content="Upload your resume to get detailed feedback on mistakes and improve your resume's effectiveness. AiResumeBuilder provides insightful analysis to enhance your resume." />
         {/* <meta property="og:image" content="/path/to/og-image.jpg" /> */}
         <meta property="og:url" content="https://www.yoursite.com/analyze" />
       </Head>

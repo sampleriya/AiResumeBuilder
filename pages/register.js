@@ -6,14 +6,14 @@ const RegisterPage = () => {
   return (
     <div>
       <Head>
-        <title>Register | Corporate Gate</title>
+        <title>Register | AiResumeBuilder</title>
         <meta
           name="description"
-          content="Create your account with Corporate Gate to start building your professional resume and explore our skill matching tools. Easy and secure registration process."
+          content="Create your account with AiResumeBuilder to start building your professional resume and explore our skill matching tools. Easy and secure registration process."
         />
         <meta
           name="keywords"
-          content="register, sign up, Corporate Gate, resume builder registration, professional resume, account creation, secure registration"
+          content="register, sign up, AiResumeBuilder, resume builder registration, professional resume, account creation, secure registration"
         />
       </Head>
       <Register />
