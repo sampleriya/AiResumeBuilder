@@ -1,0 +1,144 @@
+.container {
+  background: rgba(255, 255, 255, 0.2); /* Glass effect */
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  /* padding: 20px; */
+  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
+  width: 100%;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.heading {
+ 
+  margin-bottom: 20px;
+  font-family: IBM Plex Serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41.6px;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 20px;
+  /* background: #f9f9f9; */
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  color: white;
+  background-color: #00d9d5;
+  background: #00A79D;
+
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight:300;
+  margin-bottom: 10px;
+}
+
+.mistake {
+  display: flex;
+  align-items: start;
+  padding: 5px 0;
+  font-size: 14px;
+  color: red;
+  max-width: 100%; /* Prevent container from overflowing */
+  word-wrap: break-word; /* Ensures words wrap inside the container */
+}
+
+.mistake p {
+  font-size: 14px; /* Your updated font size */
+  margin: 0; /* Ensure there's no extra margin causing overflow */
+  max-width: 100%; /* Keep paragraph within parent bounds */
+  word-break: break-word; /* Force word breaks if needed */
+}
+
+.mistake img {
+  width: 16px;
+  height: 16px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.scoreSection {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.editButton {
+  margin-top: 15px;
+  padding: 5px 50px;
+  font-size: 16px;
+  color: #00a3ad;
+  border: 2px solid #00a3ad;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  z-index: 5; /* Increase z-index to ensure it is on top */
+  position: relative; /* Add relative positioning to ensure it's affected by z-index */
+  transition: background-color 0.3s;
+}
+
+.editButton:hover {
+  background-color: #00a3ad;
+  color: white;
+}
+.backgroundImage1 {
+    position: absolute;
+    top: 15rem;
+    left: -25px;
+    width: 90%;
+    z-index: 1; /* Behind the content */
+    opacity: 0.5;
+  }
+  
+  .backgroundImage2 {
+    position: absolute;
+    top: 20rem;
+    right: 0;
+    /* width: 80%; */
+    height: auto;
+    z-index: -1; /* Behind the content */
+    opacity: 0.5;
+  }
+
+
+  .backgroundImage1 {
+    position: absolute;
+    top: 15rem;
+    left: -25px;
+    width: 90%;
+    z-index: -1; /* Behind the content */
+    opacity: 0.5;
+    max-width: 100vw; /* Prevents background from going beyond the screen width */
+  }
+  
+  .backgroundImage2 {
+    position: absolute;
+    top: 20rem;
+    right: 0;
+    z-index: 1; /* Behind the content */
+    opacity: 0.5;
+    height: auto;
+    max-width: 100vw; /* Ensures background does not push content */
+  }
+  
+
+
+  .backgroundImage1,
+  .backgroundImage2 {
+    pointer-events: none; /* Ensures background images don't interfere with click events */
+  }
+
+  /* added */

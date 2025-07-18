@@ -1,0 +1,231 @@
+.template-container{
+    height:100%;
+    position: relative;
+}
+.template-container .sidebar {
+    background-color: var(--navbar);
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+  }
+.skill {
+    /* border: 1px solid black; */
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: var(--fontFamily3);
+  }
+  
+  .skill h2 {
+    width: 50%;
+    margin-top: 4rem;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .custom-text-area {
+    background: #f4f4f494;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    border: 2px solid #ccd1f9;
+    box-shadow: -4px 7px 4px 0px #00000040;
+    width: 700px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+  }
+  
+  .skill-img {
+    position: absolute;
+    top: 2px;
+    right: 100px;
+    z-index: -1;
+  }
+  
+  .skill-img img {
+    width: 30rem;
+  }
+  
+  .skill-btn-div {
+    width: 700px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .skill-btn {
+    width: fit-content;
+    background: #00a79d;
+    color: black;
+    border-radius: 4px;
+    padding: 0.5rem 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-right: -30px;
+    cursor:pointer
+  }
+  
+  .skill-div-2 {
+    margin-top: 4rem;
+  }
+  
+  .skill-div-2 h4 {
+    font-family: Inter;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .skill-div-2 .card1 {
+    border: 1px solid #5466f978;
+    background-color: white;
+    width: 432px;
+    min-height: 30rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+
+    position: relative;
+    border-radius: 7px;
+    /* opacity: 0px; */
+    box-shadow: 0px 0px 6.4px 2px #00000040;
+  }
+  
+  .card1_box {
+    margin-left: 2rem;
+    
+  }
+  
+  .skill-icon {
+    position: relative;
+    width: fit-content;
+  }
+  
+  .match {
+    width:3rem;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+  
+  .card1 h6 {
+    margin-top: 1.2rem;
+  }
+  
+  .card1 .skill-set {
+    background: #00a79dbd;
+    display: flex;
+    width:80%;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    gap: 10px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    padding: 5px;
+    padding-right: 3rem;
+    padding-left: 1rem;
+  }
+  
+  .skills-set-card {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    /* background-color: white; */
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 4rem;
+  }
+  
+  .walking1 {
+    margin-left: -100px;
+    margin-top: -4rem;
+  }
+  .hide{
+    display:flex;
+    align-items: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1024px) {
+    .hide{
+      display: hidden;
+    }
+    .skills-set-card {
+      flex-wrap: wrap;
+    }
+    .skill-btn-div{
+      width:100%
+    }
+    .skill {
+      padding: 0 1rem;
+    }
+    .skill h2 {
+      width: 100%;
+      font-size: 32px;
+      text-align: center;
+    }
+    .skill-img {
+      position: relative;
+      top: unset;
+      right: unset;
+      text-align: center;
+    }
+    .skill-img img {
+      width: 100%;
+      max-width: 300px;
+    }
+    .skill-btn-div {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .template-container .sidebar{
+        display:none;
+    }
+    .hide{
+      display: none;
+    }
+    .skill-btn{
+    margin-right: 0px;
+         
+    }
+    .custom-text-area {
+      width: 90%;
+      height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .skill-div-2 .card1 {
+      width: 100%;
+      height: auto;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .custom-text-area {
+      width: 95%;
+      height: 80px;
+    }
+    .skill h2 {
+      font-size: 28px;
+    }
+    .skill-btn {
+      padding: 0.5rem 1.5rem;
+    }
+    .skill-div-2 .card1 {
+      padding: 1rem;
+    }
+    .skills-set-card {
+      gap: 2rem;
+    }
+    .walking1 {
+      margin-left: 0;
+      margin-top: -2rem;
+    }
+  }
+  

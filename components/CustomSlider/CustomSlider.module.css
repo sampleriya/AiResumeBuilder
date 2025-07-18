@@ -1,0 +1,113 @@
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  font-family: var(--fontFamily3);
+}
+
+.slidesContainer {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  position: relative; /* Important for positioning textOverlay */
+}
+
+.image {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.textOverlay {
+  position: absolute;
+  bottom: 5rem;
+  left: 20px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.textOverlay h2 {
+  margin: 0;
+  font-size: 38px;
+  color: white;
+  font-weight: 300;
+}
+
+.textOverlay h3 {
+  font-size: 38px;
+  color: white;
+  font-weight: 300;
+}
+
+.textOverlay p {
+  margin: 0;
+  font-size: 16px;
+  color: white;
+}
+
+.dots {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.activeDot {
+  background-color: var(--mainColor);
+}
+
+.next {
+  position: absolute;
+  top: 60%;
+  right: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  transform: translateY(-50%);
+  user-select: none;
+}
+
+@media (max-width: 768px) {
+  .image {
+    width: 100%;
+    height: auto;
+
+  }
+  .next {
+    font-size: 18px;
+  }
+
+  .textOverlay h2 {
+    font-size: 20px;
+  }
+
+  .textOverlay h3 {
+    font-size: 16px;
+  }
+
+  .textOverlay p {
+    font-size: 14px;
+  }
+}
+
+.spinnerContainer{
+  display:flex;
+  justify-content: center;
+}

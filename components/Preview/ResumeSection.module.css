@@ -1,0 +1,73 @@
+.container {
+  /* display:flex;
+    flex-direction: column; */
+  position: relative;
+  z-index: 2;
+}
+
+.container h4 {
+  font-family: IBM Plex Serif;
+  font-size: 32px;
+  font-weight: 400;
+  /* line-height: 41.6px; */
+  text-align: center;
+  z-index: 2;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+}
+.li {
+  display: flex;
+  align-items: flex-start; /* Aligns image and text at the top (start) of the vertical axis */
+  gap: 10px; /* Adds space between the image and the text */
+
+  border: 1px solid #d5d5d5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 16px;
+  margin-top: 1rem;
+  z-index: 2;
+  /* Glassmorphism */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.25);
+
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
+}
+
+.li img {
+  height: auto; /* Maintains the aspect ratio */
+  object-fit: contain; /* Ensures the image does not stretch */
+  margin-top: 3px;
+  z-index: 2;
+}
+
+.li p {
+  margin: 0;
+  font-size: 16px; /* Adjust text size */
+  line-height: 1.5;
+  z-index: 2;
+}
+
+.backgroundImage1 {
+  position: absolute;
+  top: 15rem;
+  left: -25px;
+  width: 90%;
+  z-index: 1; /* Behind the content */
+  opacity: 0.5;
+}
+
+.backgroundImage2 {
+  position: absolute;
+  top: 20rem;
+  right: 0;
+  /* width: 80%; */
+  height: auto;
+  z-index: 1; /* Behind the content */
+  opacity: 0.5;
+}

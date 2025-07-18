@@ -1,0 +1,123 @@
+
+  .container {
+    max-width: 100%;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    font-family: var(--fontFamily3);
+    height: 70vh; 
+    box-sizing: border-box;
+  }
+  
+  .leftPane, .middlePane, .rightPane {
+    height: 100%;
+  }
+  
+  .leftPane {
+    position: relative;
+    width: 20%;
+    border-right: 10px solid #5466f9ad;
+  }
+  
+  .middlePane {
+    width: 50%;
+    border-right: 10px solid #5466f9ad;
+    position: relative;
+  }
+  
+  .textarea {
+    width: 100%;
+    height: calc(100% - 40px); /* Adjust height to fill the middlePane */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    border-style: none;
+    border-color: Transparent;
+    resize: none;
+    color: #7b88ff;
+  }
+  
+  .btnDiv {
+    position: absolute;
+    bottom: 0;
+    right: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    padding: 0.5rem 1rem;
+    border-radius: 40px;
+    background: #00a79d;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btnDiv button {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    border: none;
+  }
+  
+  .btnDiv p {
+    color: white;
+  }
+  
+  .rightPane {
+    padding: 30px;
+    position: relative;
+    width: 20%; 
+  }
+  
+  .play {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: #00a79d;
+    left: -30px;
+    cursor: pointer;
+    bottom: 15rem;
+  }
+  
+  .fileItem1 {
+    background: #e2e2e2;
+    border: 0.2px solid #e2e2e2;
+    padding: 0.5rem 2rem;
+  }
+  
+  .fileItem2 {
+    border: 0.2px solid #e2e2e2;
+    padding: 0.5rem 2rem;
+  }
+  
+  .leftEndDiv {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 0.7rem;
+    justify-content: space-between;
+    background: #5466f9ad;
+  }
+  
+  .file {
+    position: absolute;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    top: 7.6rem;
+    left: 16.5rem;
+    box-shadow: 0px 0px 4px 0px #00000040;
+  }
+  
+  .output {
+    margin-top: 20px;
+    /* border: 1px solid #ccc; */
+    padding: 10px;
+    color:black;
+  }

@@ -1,0 +1,34 @@
+.radioButtonContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .radioButtonContainer input[type="radio"] {
+    display: none;
+  }
+  
+  .radioButtonLabel {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #888888; /* Gray color for text */
+    font-size: 14px;
+  }
+  
+  .radioButtonLabel::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .radioButtonContainer input[type="radio"]:checked + .radioButtonLabel::before {
+    background-color:  #00A79D; /* Cyan color when checked */
+    border: 2px solid black;
+  }
+  

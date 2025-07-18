@@ -1,0 +1,93 @@
+.container {
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.tabs {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap; /* Allows tabs to wrap on smaller screens */
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #000;
+  font-weight: bold;
+  flex: 1 1 auto; /* Allows tabs to grow and shrink */
+  text-align: center; /* Center text in the tab */
+}
+
+.active {
+  background-color: #00aba9;
+  color: #fff;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdownToggle {
+  background-color: #00aba9;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin-left: 5px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  width: 200px; /* Set a default width */
+}
+
+.dropdownItem {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background-color: #f5f5f5;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .tabs {
+    width: 100%;
+    justify-content: flex-start; /* Align tabs to the start of the container */
+    overflow-x: auto; /* Allows horizontal scrolling if tabs overflow */
+  }
+  
+  .tab {
+    flex: 1 1 auto; /* Allows tabs to shrink */
+    text-align: center; /* Center text in the tab */
+    padding: 8px 15px; /* Adjust padding for smaller screens */
+  }
+  
+  .dropdownMenu {
+    width: 100%; /* Make dropdown menu width responsive */
+  }
+}

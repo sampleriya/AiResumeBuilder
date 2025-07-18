@@ -1,0 +1,94 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display:flex;
+  gap:20px
+  /* border: 2px solid black; */
+}
+
+.leftSection {
+width: 30%;
+}
+
+.color {
+  border: 1px solid #c3c3c3;
+  border-radius: 10px;
+  padding: 0.5rem 0;
+  height: 25rem;
+}
+
+.h6 {
+  padding-left: 1rem;
+}
+
+.border {
+  width: 10rem;
+  height:1px;
+  background-color:  #c3c3c3;
+}
+
+.color_main{
+  position:relative;
+    display:flex;
+    padding-left: 1rem;
+    gap:10px;
+    margin-top:1rem;
+}
+.gridContainer {
+    /* flex: 1; */
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20px, 1fr)); /* Adjust column width */
+    gap: 10px;
+    justify-items: center;
+  }
+  
+  .circle {
+    width: 20px;  /* Set circle width to 20px */
+    height: 20px; /* Set circle height to 20px */
+    border-radius: 50%;
+  }
+  
+
+  /* Right Section */
+  .rightSection{
+    width:70%;
+    /* border: 1px solid red; */
+  }
+
+
+
+  @media (max-width:1024px){
+    .container{
+      width:100%;
+      flex-direction: column;
+      margin:0
+    }
+    .leftSection{
+      width:100%;
+    }
+    .rightSection{
+      width:100%
+    }
+    .color{
+      height:10rem;
+    }
+  }
+
+  /* color picker*/
+  .colorPickerWrapper {
+    position: absolute;
+    top: 5rem;
+   /* Align to the right of the trigger element */
+    z-index: 10; /* Ensure it appears above other elements */
+    margin-left: 0.5rem; /* Adjust margin as needed */
+  }
+
+  @media(max-width:785px){
+    .img{
+      display:none
+    }
+    .leftSection{
+      padding: 1rem
+    }
+  }

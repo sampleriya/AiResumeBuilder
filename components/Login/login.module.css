@@ -1,0 +1,254 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+}
+
+.leftSection {
+  width: 40%;
+  height: 100vh;
+  background: #355773;
+  position: relative;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textOverlay {
+  position: absolute;
+  top:6rem;
+  color: white;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.textOverlay h2 {
+  margin: 0;
+  font-size: 40px;
+  color:white;
+  font-family: IBM Plex Serif;
+font-size: 50px;
+font-weight: 600;
+line-height: 65px;
+text-align: left;
+
+}
+
+/* Right Section and Other Styles */
+.rightSection {
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.btn {
+  margin-top: 2rem;
+}
+
+.google {
+  border: 1px solid #D9D9D9;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  font-size: 10px;
+  cursor:pointer
+}
+
+.google h6 {
+  font-size: 12px;
+}
+
+/* Form */
+.form {
+  margin-top: 5rem;
+  border-radius: 8px;
+  max-width: 700px;
+  width: 100%;
+}
+
+.inputGroup {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.inputGroup label {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.inputGroup input {
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+}
+
+.inputGroup input:focus {
+  border-bottom-color: #00a398;
+}
+
+.showPassword {
+  position: absolute;
+  right: 10px;
+  top: 38px;
+  cursor: pointer;
+}
+
+.loginButton {
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0.75rem;
+  background-color: #00a398;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginButton:hover {
+  background-color: #008a7e;
+}
+
+.links {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.links p {
+  margin: 0.5rem 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.links a {
+  color: #0000ee;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.rm {
+  width: 40rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .rm{
+    width:100%
+  }
+  .container {
+    flex-direction: column;
+  }
+  .textOverlay h2 {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .leftSection {
+    width: 100%;
+    height: 30vh;
+    border-radius: 0;
+  }
+
+  .rightSection {
+    border-radius: 0;
+    height: auto;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .form {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .leftSection{
+    width:100%;
+  }
+  .rightSection {
+    width:100%;
+  }
+
+  .form {
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+
+  .google {
+    padding: 0.5rem 1rem;
+    font-size: 8px;
+  }
+
+  .google h6 {
+    font-size: 10px;
+  }
+
+  .loginButton {
+    padding: 0.5rem;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .textOverlay{
+    top:20px;
+  }
+  .textOverlay h2{
+    margin:0;
+    font-size:2rem
+  }
+
+  .rightSection {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .inputGroup input {
+    font-size: 14px;
+  }
+
+  .loginButton {
+    font-size: 14px;
+  }
+
+  .links p {
+    font-size: 12px;
+  }
+
+  .links a {
+    font-size: 14px;
+  }
+}

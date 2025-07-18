@@ -1,0 +1,114 @@
+.resumeContainer {
+  /* font-family: Arial, sans-serif; */
+  color: #333;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: white;
+  /* border-radius: 8px; */
+  /* max-width: 800px; */
+  width: 1000px;
+  height: auto;
+  /* overflow:hidden; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.photoContainer {
+  flex: 0 0 150px;
+  height: 150px;
+  margin-right: 20px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 3px solid #2a7a4d;
+}
+
+.photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.headerText {
+  flex: 1;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2a7a4d;
+}
+
+.contactInfo {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.contactInfo p {
+  margin: 5px 0;
+}
+
+.contactInfo a {
+  color: #0073b1;
+  text-decoration: none;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2a7a4d;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  transition: 'background-color 0.3s ease'
+
+}
+.sectionTitle:hover{
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+.job {
+  margin-bottom: 15px;
+}
+
+.jobTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.company {
+  font-size: 14px;
+  color: #666;
+}
+
+.jobDate {
+  font-size: 14px;
+  color: #999;
+}
+
+.jobDetails {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.skillsList {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.education,
+.certification {
+  font-size: 14px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,107 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    /* background-color: #f8f8f8; */
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .logo {
+    width: 8rem;
+    margin-bottom: 20px;
+  }
+  
+  .getStarted {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 20px;
+  }
+  
+  .loginTitle,
+  .createAccountTitle {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .separator {
+    font-size: 16px;
+    color: #6c757d;
+    margin: 10px 0;
+  }
+  
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+  }
+  
+  .inputGroup {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .inputGroup label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 0.5rem;
+  }
+  
+  .inputGroup input {
+    width: 100%;
+    padding: 0.5rem 0;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+  }
+  
+  .inputGroup input:focus {
+    border-bottom-color: #00a398;
+  }
+  
+  .loginButton {
+    background-color: #00bfa5;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .loginButton:hover {
+    background-color: #009688;
+  }
+  
+  .registerLink {
+    font-size: 14px;
+    color: #00bfa5;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .registerLink:hover {
+    text-decoration: underline;
+  }
+  
+  .forgotPassword {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #6c757d;
+    cursor: pointer;
+  }
+  
+  .forgotPassword:hover {
+    text-decoration: underline;
+  }
+  

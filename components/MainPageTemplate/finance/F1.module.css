@@ -1,0 +1,204 @@
+
+
+
+.mainSection {
+    width: 210mm;
+    height: 297mm;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+
+.leftPart {
+    width: 40%;
+    height: 100%;
+    background-color: #F4F4F4;
+    padding: 2.8rem;
+}
+
+.photoContainer {
+    margin-bottom: 2.2rem;
+}
+
+.photoContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 1rem solid white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.title {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    background-color: #444440;
+    color: white;
+    text-align: center;
+    margin: 1.4rem 0;
+}
+
+.contactContainer {
+    margin-bottom: 2.2rem;
+}
+
+.contactList {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+    color: #444440;
+    font-size: 1rem;
+}
+
+.educationContainer {
+    margin-bottom: 2.2rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.course {
+    margin-bottom: 1rem;
+    color: #414042;
+}
+
+.educationTitle {
+    font-size: 1rem;
+    font-weight: 800;
+    margin-bottom: .3rem;
+}
+
+.collegeName {
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+}
+
+.educationDate {
+    font-size: 0.9rem;
+}
+
+.skillsContainer {
+    margin-bottom: 2.2rem;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.6rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.outerLayer {
+    background-color: #BBBBBB;
+    height: 0.4rem;
+    width: 5rem;
+    border-radius: 0.4rem;
+}
+
+.innerLayer {
+    background-color: #3D3D3D;
+    height: 100%;
+    border-radius: inherit;
+}
+
+.rightPart {
+    padding: 2.8rem;
+}
+
+.banner {
+    font-family: 'Open Sans', sans-serif;
+    color: #4D4D4F;
+    margin-bottom: 2.2rem;
+}
+
+.firstname {
+    font-size: 4rem;
+}
+
+.lastname {
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.5rem;
+    margin-top: -1rem;
+}
+
+.position {
+    letter-spacing: 0.3rem;
+    margin-top: -0.5rem;
+    font-size: 1.1rem;
+}
+
+.workContainer {
+    margin-top: 5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.work:not(:last-child) {
+    margin-bottom: 1.8rem;
+}
+
+.jobDate {
+    display: flex;
+    justify-content: space-between;
+    color: #4D4D4F;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.companyName {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #4D4D4F;
+}
+
+.workText {
+    color: #737373;
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1rem;
+}
+
+.referencesContainer {
+    margin-top: 2.2rem;
+    font-family: 'Lato', sans-serif;
+    color: #4D4D4F;
+}
+
+.references {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.name {
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.referencesCompanyName {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.phone {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    color: #414042;
+}
+
+.phone p {
+    margin: 0.4rem 0;
+}
+
+.phoneText {
+    font-weight: 600;
+}
+
+.textLeft {
+    text-align: left;
+}
